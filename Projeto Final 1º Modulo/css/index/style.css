@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.ret-yellow {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 80vh;
+    width: 23%;
+    background-color: #F8B04E;
+    clip-path: polygon(0 100%, 0 45%, 45% 0, 100% 0);
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.manager {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    margin-left: 150px;
+    padding-bottom: 5px;
+}
+
+
+#btn-manager {
+
+    border-radius: 20px;
+    width: 225px;
+    height: 36px;
+    color: #68519D;
+    background-color: #FFFFFF;
+    margin-left: 145px;
+    margin-bottom: 1em;
+
+}
+
+#btn-manager:hover {
+    background-color: #68519D;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.div-test {
+    position: fixed;
+    background: #68519D;
+    width: 51px;
+    height: 100vh;
+    z-index: 1;
+}
+
+.ret-2 {
+    position: fixed;
+    background: #D7CAE5;
+    width: 51px;
+    height: 100vh;
+    margin-left: 10px;
+}
+
+
+
+
+#task-manager {
+    color: #68519D;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.title h4 {
+    color: #68519D;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+.modal-container {
+    background-color: #fefefe;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 5% auto;
+    height: 551px;
+    width: 630px;
+    padding: 20px;
+
+}
+
+.control {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #68519D;
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    line-height: 21px;
+
+}
+
+.content-modal {
+    margin-left: 25px;
+}
+
+#btt-save {
+    position: relative;
+    color: #68519D;
+    width: 121px;
+    height: 36px;
+    left: 420px;
+    top: 80px;
+
+    border: 1px solid #68519D;
+    border-radius: 20px;
+
+}
+
+#btt-save:enabled {
+    background-color: #68519D;
+    color: rgb(255, 255, 255);
+
+}
+
+#cancel-link {
+    position: relative;
+    text-decoration: none;
+    width: 65px;
+    height: 21px;
+    left: 30px;
+    top: 50px;
+
+
+    color: #828282;
+}
+
+
+label {
+    color: #68519D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+
+.edit-table {
+    padding-top: 10px;
+    width: 60%;
+    margin: 12px 144px;
+}
+
+.header {
+    font-weight: 700;
+    color: #2C2661;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+
+.exit-account {
+    position: absolute;
+    bottom: 20px;
+    left: 122px;
+    padding: 1em;
+    
+}
+
+.exit-account a {
+    padding: 4px 26px;
+    background: transparent;
+    color: var(--input-color);
+    font-weight: 700;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none; 
+    text-transform: uppercase;
+
+}
+
+a img {
+    width: 25px;
+
+  
+}
+
+.icon {
+    padding: 0 10px;
+}
+
+.icon-btt {
+    cursor: pointer;
+}
+
+.Concluído {
+    color: #27AE60;
+}
+
+.Em-andamento {
+    color: #F8B04E;
+}
+
+.Stopped {
+    color: #EB5757;
+}

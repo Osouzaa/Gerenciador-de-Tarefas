@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login/login.css" />
+    <link rel="stylesheet" href="css/login/reset.css" />
+    <script src="js/index/DarkMode.js" defer></script>
+    <script src="js/login/logar.js" defer></script>
+    <script src="js/login/modalConfirm.js" defer></script>
+    <title>login</title>
+  </head>
+  <body>
+    <div class="main-login">
+      <div class="main-logo"></div>
+      <div class="darkMode">
+        <input id="buttonDark" type="checkbox" name="buttonDark" />
+        <label for="buttonDark" class="mudarTema"></label>
+      </div>
+      <div class="left-login">
+        <h1>Faça login e entre para nosso time</h1>
+        <img src="img/login.img/animacao.svg" alt="" class="imagem-bg" />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h2>LOGIN</h2>
+          <h4 id="msgError"></h4>
+          <div class="textfield">
+            <label for="usuario"> Usuário</label>
+            <input
+              type="text"
+              name="usuario"
+              placeholder="Usuário"
+              id="usuario"
+              required
+            />
+          </div>
+          <div class="textfield">
+            <label for="senha"> Senha</label>
+            <input
+              type="password"
+              name="senha"
+              placeholder="Senha"
+              class="senha"
+              id="senha"
+              required
+            />
+            <a href="#" class="login-senha" onclick="openModal()"
+              >Esqueceu a senha?</a
+            >
+          </div>
+
+          <button
+            class="login-ancora"
+            id="login-entrar"
+            type="submit"
+            onclick="logar()"
+          >
+            Login
+          </button>
+
+          <div class="login-option">
+            <a href="pages/cadastrar.html" class="login-cadastrar">
+              Criar Conta</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-confirm" id="modal-confirm">
+      <div class="modal-container">
+        <div class="content-modal">
+          <div class="title">
+            <h3>Redefinir senha</h3>
+            <span id="time" onclick="closeModal()">&times;</span>
+          </div>
+          <div class="msg">
+            Vamos lhe enviar um e-mail com mais informações sobre como redefinir
+            sua senha.
+          </div>
+          <div class="input-email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu email"
+            />
+          </div>
+          <div class="btn-recuperacao">
+            <button>Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

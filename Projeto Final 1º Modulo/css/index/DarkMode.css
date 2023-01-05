@@ -1,0 +1,113 @@
+:root {
+    --body-bg: #fafafa;
+    --body-color: #68519D;
+    --icon-dark: url("../../img/index/moon.svg");
+    --button-bg: #fff;
+    --border-button: 1px solid #68519D;
+    --table-bg: transparent;
+    --modal-bg: #fafafa;
+    --input-bg: #fff;
+    --input-color: #68519D;
+    --logo-arnia: url("../../img/index/logo.png");
+    
+
+}
+
+.dark-mode:root {
+    --body-bg: #201b2c;
+    --body-color: #fff;
+    --icon-dark: url("../../img/index/sun-fill.svg");
+    --button-bg: #2f2841;
+    --border-button: 1px solid rgba(100, 88, 166);
+    --modal-bg: #201b2c;
+    --input-bg:  rgba(61, 0, 111, 0.21);
+    --box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    --backdrop: blur(5px);
+    --input-color: #111212de;
+    --logo-arnia: url("../../img/index/images.png");
+    
+}
+
+
+.control {
+    color: var(--input-color);
+}
+
+.modal-container-two {
+    background-color: var(--modal-bg);
+}
+
+.label__edit {
+    color: var( --body-color);
+}
+
+.select-option {
+    margin-bottom: 0.5rem;
+}
+
+.image {
+    position: relative;
+    background-image: var(--logo-arnia);
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 64px;
+    top: 3em;
+    left: 8.9em;       
+    margin-bottom: 3em; 
+
+}
+
+.modal-container {
+    background-color: var(--modal-bg);
+}
+
+.aviso p {
+    color: var(--body-color);
+}
+
+.corpo__tabela {
+    color: var(--body-color);
+}
+
+#task-manager {
+    color: var(--body-color);
+
+}
+
+#clipboard {
+    color: var(--body-bg);
+}
+
+#tableEdit {
+    background-color: var(--table-bg);
+}
+
+#btn-manager {
+    background-color: var(--button-bg);
+    color: var(--body-color);
+    border: var(--border-button);
+}
+
+#buttonDark {
+    display: none;
+}
+
+#cabecalhoo {
+    color: var(--body-color);
+}
+
+body {
+    background: var(--body-bg);
+    color: var(--body-color);
+    transition: 2s;
+}
+
+.mudarTema {
+    position: absolute;
+    top: 5em;
+    right: 8em;
+    cursor: pointer;
+    background-image: var(--icon-dark);
+    background-repeat: no-repeat;
+    padding: 3em;
+}

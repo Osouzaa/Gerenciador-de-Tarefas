@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+@import url("./page-login.css");
+@import url("./dark.css");
+@import url("./modalConfirma.css");
+
+:root {
+    --body-bg: #fafafa;
+    --color-h1: #395B64;
+    --color-h2: #201b2c;
+    --sombras: 0px 10px 40px #00000056;
+    --input-bg: #E7F6F2;
+    --input-color: #2C3333;
+    --placeholder-color: #2C3333;
+    --ancora-bg: #395B64;
+    --sombras-ancora: 0px 10px 40px -12px #00ff8052;
+    --ancora-color: #E7F6F2;
+    --icon-dark: url("../../img/login.img/sol.svg");
+    --login-bg: #EFEFEF;
+    --logo-arnia: url("../../img/login.img/logo.png");
+    --ancora-disable: #2C3333;
+    --modal-rec: #000;
+    --email-bg : 0px 10px 40px -12px #010d0752;
+    --color-placeholder: rgb(18, 17, 17);
+
+}
+
+.dark-mode:root {
+    --body-bg: #201b2c;
+    --color-h1: #77ffc0;
+    --color-h2: #00ff88;
+    --sombras: 0px 10px 40px #00000056;
+    --input-bg: #514869;
+    --input-color: #f0ffffde;
+    --placeholder-color: #f0ffff94;
+    --ancora-bg: #00ff88;
+    --sombras-ancora: 0px 10px 40px -12px #00ff8052;
+    --ancora-color: #2b134b;
+    --icon-dark: url("../../img/login.img/lua.svg");
+    --login-bg: #2f2841;
+    --logo-arnia: url("../../img/login.img/images.png");
+    --modal-rec: #fff;
+    --email-bg : 0px 10px 40px -12px #020e0852;
+    --color-placeholder: rgb(133, 128, 128);
+
+    
+
+}
+
+body {
+    font-family: 'Poppins';
+}

@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "number": "1",
+      "descricao": "123",
+      "data": "2023-01-05",
+      "selecao": "Concluído",
+      "id": 1
+    }
+  ],
+  "login": [
+    {
+      "login": "Gabriel Souza",
+      "email": "gabrielsouza177@yahoo.com",
+      "senha": "131220",
+      "senha_Confirmada": "131220",
+      "id": 1
+    },
+    {
+      "login": "Gilson Felipe",
+      "email": "Gilson@gmail.com",
+      "senha": "131220",
+      "senha_Confirmada": "131220",
+      "id": 2
+    },
+    {
+      "login": "GABRIEL SOUZAA",
+      "email": "ASDASD@GMAIL.COM",
+      "senha": "12312123",
+      "senha_Confirmada": "123213123",
+      "id": 3
+    }
+  ]
+}

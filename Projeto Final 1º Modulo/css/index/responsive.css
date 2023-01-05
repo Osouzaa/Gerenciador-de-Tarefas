@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+
+    .edit-table {
+        margin-left: 5em;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+    #t-body th {
+        font-size: 12px;
+    }
+
+    #t-body td {
+        font-size: 12px;
+    }
+
+    .image {
+        top: 1.5em;
+        left: 6em;
+        margin-bottom: 3em;
+    }
+
+    .manager {
+        margin-left: 6em;
+    }
+
+    #btn-manager {
+        margin-left: 6em;
+    }
+
+    .mudarTema {
+        right: 5em;
+    }
+
+    .modal-container {
+        height: 500px;
+        width: 400px;
+        margin: 20% 20%;
+    }
+
+    #date {
+        width: 200px;
+    }
+    
+    #select{
+        width: 200px;
+    }
+
+    #btt-save {
+        position: relative;
+        top: 42px;
+        left: 200px;
+        width: 100px;
+    }
+
+    #cancel-link {
+        top: 15px;
+
+    }
+
+   
+}
+

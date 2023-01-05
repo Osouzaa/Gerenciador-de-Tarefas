@@ -1,0 +1,108 @@
+.modal__two {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+}
+
+.modal-container-two {
+    background-color: #fefefe;
+    border: 1px solid gray;
+    margin: 10% auto;
+    height: 250px;
+    width: 600px;
+    padding: 20px;
+
+}
+
+.aviso p {
+    margin-top: 2em;
+    font-size: 18px;
+    color: #68519D;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+
+}
+
+#time {
+    text-decoration: none;
+    font-size: 22px;
+    color: grey;
+    cursor: pointer;
+}
+
+.title h4 {
+    color: #68519D;
+    font-weight: 700;
+
+    text-align: start;
+  
+
+}
+
+.modalDois {
+    border-bottom: 2px solid rgb(131, 118, 118);
+
+}
+
+span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+.opt-button {
+    gap: 20px;
+
+}
+
+.btt {
+    border: none;
+}
+
+#btt-delete {
+    background-color: #68519D;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 1em;
+}
+
+
+#btt-cancelar {
+    background-color: gray;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 1.0em;
+}
+
+#btt-delete:hover {
+    background-color: #220f53;
+    width: 95px;
+    height: 40px;
+    transition: all 0.2s;
+}
+
+#btt-cancelar:hover {
+    background-color: rgb(42, 40, 40);
+    width: 95px;
+    height: 40px;
+    transition: all 0.2s;
+}
+
+#time:hover {
+    color: #000000;
+    font-size: x-large;
+}

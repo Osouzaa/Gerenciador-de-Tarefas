@@ -1,0 +1,131 @@
+.senha {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+}
+
+.container-animation {
+    background-color: var(--container-bg);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+.container-animation img {
+    width: 100%;
+}
+
+.container-form {
+    background-color: var(--container-bg);
+    backdrop-filter: blur(40px);
+    padding: 1.8em 2.5em;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+.container-form h1 {
+    font-size: 30px;
+}
+
+.container-form p {
+    font-weight: 700;
+    color: var( --container-color);
+}
+
+.container-form p a {
+    color: #FF008A;
+    text-decoration: none;
+}
+
+.container-form form {
+    margin: 20px 0;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.label-form {
+    color: var(--label-color);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.input-group input {
+    width: 100%;
+    height: 47px;
+    background-color: var(--input-bg) ;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: var(--label-color);
+    transition: all 0.4s ease;
+}
+
+.input-group input:focus {
+    border-color: var(--body-bg);
+}
+
+.input-group button {
+    width: 100%;
+    height: 47px;
+    background: var(--botao-bg);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-group button:disabled {
+    background-color: var(--botao-disable);
+}
+
+.modal__two {
+    display: none;
+}
+
+#msgError {
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+
+/* 
+@media (max-width:930px) {
+    .img-box {
+        display: none;
+    }
+
+    .box {
+        width: 700px;
+    }
+
+    .form-box {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .w50 {
+        width: 100%;
+        padding: 0;
+    }
+} */
