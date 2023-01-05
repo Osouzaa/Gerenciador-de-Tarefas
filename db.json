@@ -6,6 +6,13 @@
       "data": "2023-01-05",
       "selecao": "Concluído",
       "id": 1
+    },
+    {
+      "number": "123",
+      "descricao": "teste",
+      "data": "1998-01-12",
+      "selecao": "Concluído",
+      "id": 2
     }
   ],
   "login": [
@@ -29,6 +36,20 @@
       "senha": "12312123",
       "senha_Confirmada": "123213123",
       "id": 3
+    },
+    {
+      "login": "Hugo_Souza",
+      "email": "hugoalves61@yahoo.com.br",
+      "senha": "120198hugo",
+      "senha_Confirmada": "120198hugo",
+      "id": 4
+    },
+    {
+      "login": "mariza",
+      "email": "marizaabadia@yahoo.com.br",
+      "senha": "120198",
+      "senha_Confirmada": "120198",
+      "id": 5
     }
   ]
 }
