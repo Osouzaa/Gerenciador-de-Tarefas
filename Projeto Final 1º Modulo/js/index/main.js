@@ -43,7 +43,7 @@ window.addEventListener("click", (event) => {
 });
 
 const getTasks = async () => {
-  const apiResponse = await fetch("http://localhost:3000/tasks");
+  const apiResponse = await fetch("https://meu-json-server.vercel.app/tasks");
   const tasks = await apiResponse.json();
   const taskTable = document.getElementById("t-body");
   taskTable.innerHTML = "";
@@ -79,13 +79,13 @@ const getTasks = async () => {
 };
 
 const getTask = async (id) => {
-  const apiResponse = await fetch(`http://localhost:3000/tasks/${id}`);
+  const apiResponse = await fetch(`https://meu-json-server.vercel.app/tasks/${id}`);
   const taskManager = await apiResponse.json();
   return taskManager;
 };
 
 const deleteTasks = async () => {
-  await fetch(`http://localhost:3000/tasks/${toBeDeleted}`, {
+  await fetch(`https://meu-json-server.vercel.app/tasks/${toBeDeleted}`, {
     method: "DELETE",
   });
   getTasks();
@@ -120,7 +120,7 @@ const editTasks = async (id) => {
 };
 
 const addTasks = async (task) => {
-  await fetch("http://localhost:3000/tasks", {
+  await fetch("https://meu-json-server.vercel.app/tasks", {
     method: "POST",
     headers: {
       Accept: "application/json, text/plain, */*",
@@ -136,7 +136,7 @@ const addTasks = async (task) => {
 };
 
 const uptadeTasks = async (id, tasks) => {
-  await fetch(`http://localhost:3000/tasks/${id}`, {
+  await fetch(`https://meu-json-server.vercel.app/tasks/${id}`, {
     method: "PUT",
     headers: {
       Accept: "application/json, text/plain, */*",
