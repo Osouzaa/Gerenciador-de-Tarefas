@@ -3,7 +3,7 @@ const logar = async () => {
   const password = document.getElementById("senha").value;
 
 
-  const apiResponse = await fetch("http://localhost:3000/login");
+  const apiResponse = await fetch("https://meu-json-server.vercel.app/login");
   const users = await apiResponse.json();
 
   let persons = users.find((perso) => {
