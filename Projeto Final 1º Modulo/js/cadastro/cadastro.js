@@ -2,7 +2,7 @@ const form = document.getElementById("form-cadastro");
 
 
 const salvarLogin = async (login) => {
-  await fetch("http://localhost:3000/login", {
+  await fetch("https://meu-json-server.vercel.app/login", {
     method: "POST",
     headers: {
       Accept: "application/json, text/plain, */*",
